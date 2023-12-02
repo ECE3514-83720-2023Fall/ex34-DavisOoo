@@ -274,7 +274,7 @@ BinaryTree<TreeItemType, FunctionType> BinaryTree<TreeItemType, FunctionType>::m
         attachLeftSubtree(lefttree);
     }
     if (!righttree.isEmpty()) {
-        attachLeftSubtree(righttree);
+        attachRightSubtree(righttree);
     }
     return *this;
 }
